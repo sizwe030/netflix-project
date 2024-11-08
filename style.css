@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  font-size: 16px;
+  text-decoration: none;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.card-title {
+  font-size: 3.125rem;
+  margin-bottom: 0.5rem;
+  line-height: 1.1;
+  font-weight: 600;
+}
+.card-subtitle {
+  font-size: 1.625rem;
+  font-weight: 400;
+  margin: 1rem 0;
+}
+.email-form-title{
+  font-size: 1.2rem;
+  line-height: 1.1;
+  padding-bottom: 20px;
+}
+/* Barner wrap */
+.banner-wrap {
+  background-image: url(./asset/bgimage.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  border-bottom: 10px solid #222222;
+  position: relative;
+  z-index: 1;
+}
+h1 {
+  font-size: 3.2rem;
+  color: white;
+}
+.navbar {
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 45px;
+  margin: 0px 45px;
+  padding-top: 45px;
+}
+.navbar > img {
+  height: 32px;
+}
+.navbar > a {
+  padding: 7px 17px;
+  color: white;
+  background: red;
+  text-decoration: none;
+  border-radius: 3px;
+}
+.banner-container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100% - 45px);
+}
+.get-started-form{
+  height: 60px;
+  display: flex;
+}
+.get-started-form input{
+  width: 450px;
+  height: 100%;
+  padding-left: 10px;
+}
+
+.get-started-form button{
+  background-color: red;
+  color: white;
+  border: none;
+  height: 100%;
+  font-size: 1.625rem;
+  min-height: 60px;
+  padding: 0 26px;
+  border-left: 1px solid grey;
+}
+.overlay {
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  background: black;
+  opacity: 60%;
+  position: absolute;
+  top: 0;
+}
+.info-container {
+  background: black;
+  color: white;
+  display: flex;
+  padding: 70px 45px;
+  border-bottom: 10px solid #222222;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.tv-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tv-container img {
+  z-index: 1;
+}
+.tv-container video {
+  position: absolute;
+}
+/* FOOTER STYLES */
+.footer {
+  background: black;
+}
+.footer-items{
+  margin: 0 47.5px;
+  padding: 70px 45px;
+  
+}
+.footer ul li, .question-title {
+  color: #757575;
+  list-style: none;
+}
+.footer ul li:hover, .question-title:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.footer-links li{
+  font-size: 13px;
+  line-height: 2;
+}
+.question-title{
+  text-decoration: none;
+}
+.footer-top{
+  margin-bottom: 30px;
+}
+.footer-links{
+  columns: 4;
+  padding: 0;
+}
+.language{
+  height: 53px;
+  width: 142px;
+  color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border: 1px solid grey;
+  padding: 0 10px;
+  margin-top: 30px;
+  border-radius: 3px;
+  
+}
+.language select {
+  padding: 10px;
+  width: 100%;
+  border: none;
+  appearance: none;
+  background: black;
+  color: #999999;
+  background: url(https://media.discordapp.net/attachments/1295714724360749106/1303063350019752048/bgimage.jpg) no-repeat 100%  ;
+}
+.language select  option{
+  color: grey;
+  background-color: black;
+}
+.footer-country{
+  color: grey;
+  font-size: 13px;
+  margin-top: 27px;
+}
+.test{
+  display: none;
+}

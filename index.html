@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Kenya - Watch TV</title>
+    <link rel="icon" href="https://uploads.codesandbox.io/uploads/user/8036c587-6c4e-41c7-9908-1ccb30624c29/29R1-favicon.png" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+
+  <body background="/assests/bgimage.jpg">
+
+    <div class="banner-wrap">
+      <div class="overlay"></div>
+      <!-- Navbar -->
+      <div class="navbar">
+        <img src="https://uploads.codesandbox.io/uploads/user/8036c587-6c4e-41c7-9908-1ccb30624c29/GXWy-logo.png" alt="Netflix Cover" />
+        <a href="https://www.netflix.com/ke-en/login" target="_blank"
+          >Sign In</a
+        >
+      </div>
+      <div class="banner-container">
+        <h1 class="card-title">Unlimited movies,</h1>
+        <span class="card-title">TV shows, and more.</span>
+        <h2 class="card-subtitle">Watch anywhere. Cancel anytime.</h2>
+
+        <!-- Get started from-->
+        <form>
+          <h3 class="email-form-title">
+            Ready to watch? Enter your email to create or restart your
+            membership.
+          </h3>
+          <div class="get-started-form">
+            <input type="text" placeholder="email address"/>
+            <button>Get Started > </button>
+          </div>
+          
+        </form>
+      </div>
+    </div>
+
+    <div class="info-container">
+      <div class="info">
+        <h1 class="card-title">Enjoy on your TV.</h1>
+        <p class="card-subtitle">
+          Watch on Smart TVs, Playstation,Xbox,</p>
+          <span class="card-subtitle">Chromecast, Apple TV, Blu-ray players, and more.</span>
+        
+      </div>
+      <div class="tv-container">
+        <img
+          src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png"
+          alt=""
+        />
+
+        <!-- Inline video-->
+        <video autoplay playsinline muted loop>
+          <source
+            src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v"
+            type="video/mp4"
+          />
+        </video>
+      </div>
+    </div>
+    <!-- This is the footer -->
+    <div class="footer">
+      <div class="footer-items">
+        <div class="footer-top">
+                  <a href="" class="question-title">Questions? Call 0 801-000-723</a>
+
+        </div>
+        <ul class="footer-links">
+          <li id="faq-item">FAQ</li>
+          <li>Help Center</li>
+          <li>Account</li>
+          <li>Media Center</li>
+          <li>Investor Relations</li>
+          <li>Jobs</li>
+          <li>Ways to Watch</li>
+          <li>Terms of Use</li>
+          <li>Privacy</li>
+          <li>Cookie Preferences</li>
+          <li>Corporate Information</li>
+          <li>Contact Us</li>
+          <li>Speed Test</li>
+          <li>Legal Notices</li>
+          <li>Netflix Originals</li>
+        </ul>
+        <div class="language">
+          <span>
+            <i class="material-icons">language</i></span>
+
+            <select name="languages" id="laguages">
+              <option value="English">English</option>
+              <option value="Swahili">Swahili</option>
+            </select>
+          
+        </div>
+        <p class="footer-country">Netflix Sizwe Nkabinde</p>
+      </div>
+    </div>
+  </body>
+</html>

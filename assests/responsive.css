@@ -1,0 +1,21 @@
+@media (max-width: 768px) and (min-width: 480px) {
+
+    
+    .info-container {
+      display: flex;
+      flex-direction: column;
+    }
+    .card-subtitle {
+        font-size: 1.2rem;
+        font-weight: 400;
+        margin: 1rem 0;
+      }
+      .info{
+        text-align: center;
+      }
+      .get-started-form {
+        display: block;
+        justify-content: center;
+        align-items: center;
+      }
+  }
